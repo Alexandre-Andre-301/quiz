@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img.png" type="image/x-icon">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="root">
+        <div class="img">
+            <img class="img-principal" src="img.png" alt="cerebro">
+        </div>
+        <h1 style="text-align: center; margin-top: 10px;">Quiz challenge</h1>
+        <p>Teste seus conhecimentos com perguntas desafiadoras e descubra seu nível de conhecimento!</p>
+        
+        <div class="cards">
+            <div class="card">
+        
+                <img class="trofeu" src="trofeu.png" alt="trofeu">
+                <p>10 Perguntas</p>
+            </div>
+            <div class="card">
+                <img class="alvo" src="alvo.png" alt="alvo">
+                <p style="width: 146px;">Múltipla Escolha</p>
+            </div>
+            <div class="card">
+                <img src="cerebro.png" alt="" class="cerebro">
+                <p style="width:173px;">Resultado Imediato</p>
+            </div>
+        </div>
+        <div class="botao">
+            <button class="btn" onclick="IniciarQuiz()">Iniciar Quiz</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
